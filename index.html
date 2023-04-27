@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Tour</li>
+            <li><a href=""></a>Expolre</li>
+            <li><a href=""></a>About</li>
+            <li class="btn"><a href=""></a>contact</li>
+        </ul>
+        <img src="/img/icons8-menu-bar-17.png" alt="" class="menu-btn">
+
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>Wonderfull Gift</h1>
+            <a href="" class="btn">Learn more</a>
+        </div>
+
+    </header>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLink = document.querySelector('.nav-link')
+
+        menuBtn.addEventListener('click', () =>{
+            navLink.classList.toggle('mobile-menu')
+        })
+    </script>
+    
+</body>
+</html>
